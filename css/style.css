@@ -1,0 +1,139 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background-image: url('../images/back.jpg'), linear-gradient(rgb(0,0,0,0.5),rgba(0, 0, 0, 0.075));
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* full page background recipe */
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1em;       /* 16px */
+  line-height: 1.75em;  /* 28px */
+  margin-bottom: 1.75em; /* 28px */
+  padding: 0em 20px;
+  text-align: center;
+}
+
+a
+{
+  text-decoration: none;
+  color: blue;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 620px;
+  margin: 100px auto;
+}
+
+/*
+ * section Styles
+*/
+
+section.intro, section.contact
+{
+  padding: 40px;
+}
+
+section.intro
+{
+  background-color: #FFF;
+}
+
+section.contact
+{
+  background-color: #DDD;
+}
+
+/* 
+ * dog Styles
+*/
+
+.dog
+{
+  line-height: 0;
+}
+
+.dog img
+{
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* 
+ * aside Styles
+*/
+
+aside.left
+{
+  float: left;
+  padding-left: 20px;
+}
+
+aside.right
+{
+  float: right;
+}
+
+/* 
+ * special Styles
+*/
+
+b
+{
+  font-weight: bold;
+}

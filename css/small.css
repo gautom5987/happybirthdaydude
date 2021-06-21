@@ -1,0 +1,21 @@
+.container
+{
+    width: 100%;
+    margin: 0;
+}
+
+aside.left, aside.right
+{
+    text-align: center;
+    float: none;
+}
+
+iframe
+{
+    width: 100%;
+}
+
+.dog img
+{
+    border-radius: 0px;
+}
