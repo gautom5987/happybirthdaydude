@@ -104,15 +104,15 @@ section:nth-child(even)
 }
 
 /* 
- * dog Styles
+ * main image Styles
 */
 
-.dog
+.main_img
 {
   line-height: 0;
 }
 
-.dog img
+.main_img img
 {
   width: 100%;
   border-top-left-radius: 25px;
@@ -150,5 +150,10 @@ b
 }
 
 /* 
- * footer styles
+ * endnote styles
 */ 
+
+
+/* 
+ * footer styles
+*/
